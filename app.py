@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Load the trained model
 
 # Load the trained segmentation model
-MODEL_PATH = "C:/Users/Dell/Desktop/final/model/attention_unet_model.h5"
+MODEL_PATH = "attention_unet_model.h5"
 # Load without compilation
 # model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 model = tf.keras.models.load_model(MODEL_PATH,compile = False)
